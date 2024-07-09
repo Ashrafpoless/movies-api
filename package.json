@@ -5,7 +5,7 @@
   "description": "movies",
   "main": "index.js",
   "engines": {
-    "node": "16x"
+    "node": "20.x"
   },
   "scripts": {
     "dev": "nodemon index.js",
