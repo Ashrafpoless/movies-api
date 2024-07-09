@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>movie</title>
+</head>
+<body>
+    <h1>movie</h1>
+    <div class="container">
+        <% if(movieExist){ %>
+                <div class="movie-container">
+                    <img src="<%= movieExist.src %>" alt="<%= movieExist.name %>">
+                    <h1><%= movieExist.name %></h1>
+                </div>
+        <% } %>
+    </div>
+</body>
+</html>

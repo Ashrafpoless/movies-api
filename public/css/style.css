@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(223, 223, 223);
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: rgb(50, 46, 46);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.movie-container{
+    margin: 10px 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-container img{
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+}
+
+.movie-container h1{
+    width: 300px;
+    background : radial-gradient(hsl(54, 100%, 70%), hsl(54, 100%, 40%)); 
+    border-radius: 10px;
+}

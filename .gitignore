@@ -1,0 +1,17 @@
+# Node.js modules
+node_modules/
+
+# Visual Studio Code directory
+.vscode/
+
+# macOS Finder attribute files
+.DS_Store
+
+# Logs
+server-logs.txt
+request_logs.txt
+access.log
+server-logs/
+
+# Environment variables file
+.env

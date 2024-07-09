@@ -1,0 +1,33 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "movies",
+  "main": "index.js",
+  "engines": {
+    "node": "16x"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "format": "prettier --write ./",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "y",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.24.7",
+    "prettier": "^3.3.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "uuid": "^10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yy"
+  }
+}
