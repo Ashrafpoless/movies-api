@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90% ;
+    margin: auto;
+}
+
+.movies2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 15px;
+}
+
+.movies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+.nav li{
+    margin: 10px 20px;
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+    list-style-type: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+
+.nav li a:hover {
+    background-color: rgb(252, 34, 0);
+    color: whitesmoke;
+}

@@ -1,0 +1,32 @@
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+
+ul li a:hover{
+    color: red;
+}
